@@ -41,8 +41,6 @@ android {
 }
 
 dependencies {
-    val room_version = "2.6.1"
-    val nav_version = "2.5.3"
 
     implementation(libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
